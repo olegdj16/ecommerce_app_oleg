@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EcommerceAppApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EcommerceAppApplication.class, args);
+        SpringApplication.run(com.cydeo.EcommerceAppApplication.class, args);
     }
 
 }

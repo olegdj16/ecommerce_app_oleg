@@ -11,18 +11,12 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Customer {
+public class Customer extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column
     private String firstName;
     private String lastName;
     private String email;
     private String userName;
 
-    @OneToMany(mappedBy = "customer")
-    private List<Address> addressList;
 
 }
